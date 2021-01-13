@@ -1,7 +1,11 @@
 # CMakeLists.txt generator
 
-## 注意
+## 環境
+- macOS High Sierra
+- GCC9.1.0
+- VSCode(C/C++1.1.3, CMake0.0.17, CMake tools1.5.3)
 
+## 注意
 - サブサブディレクトリに非対応
 project/src/subdir/subsubdirなどできない
 
@@ -20,6 +24,8 @@ project/src/subdir/subsubdirなどできない
 ### 前提条件
 - project/srcディレクトリがある
 - project/src/main.cppがある
+### 使い方
+0. シンボリックリンクを貼ったほうが良さそう
 1. $ ./cmakelists-generator {project_path}  
 ```
 ex) $ ./cmakelists-generator ../../../project
